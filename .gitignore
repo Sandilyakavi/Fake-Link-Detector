@@ -1,0 +1,23 @@
+# Root-level gitignore — prevents accidental commits of junk files
+
+# Node dependencies installed at the wrong level
+node_modules/
+package-lock.json
+
+# Environment files
+.env
+.env.*
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+dist-ssr/
+
+# Editor
+.vscode/
+.idea/
+*.suo
+*.sw?
