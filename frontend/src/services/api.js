@@ -1,7 +1,7 @@
 import axios from "axios";
 
-// Standard endpoint configuration (fallback to localhost:5002 in development)
-const API_BASE_URL = import.meta.env.VITE_API_URL || "http://localhost:5002/api";
+// Production backend on Render
+const API_BASE_URL = import.meta.env.VITE_API_URL || "https://fake-link-detector-3at6.onrender.com/api";
 
 const apiClient = axios.create({
   baseURL: API_BASE_URL,
